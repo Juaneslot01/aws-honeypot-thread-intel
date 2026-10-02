@@ -1,0 +1,43 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!example.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Secretos y credenciales
+.env
+.env.*
+*.pem
+*.key
+.aws/
+
+# Python / Lambdas
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.zip
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# GeoLite2 (licencia: no redistribuir)
+*.mmdb
+
+# SO / editores
+.DS_Store
+.idea/
+.vscode/
